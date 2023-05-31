@@ -439,8 +439,8 @@ export default {
     name_is_required: '用户名为必填',
     password_is_required: '密码为必填',
     help_document_link: '帮助文档链接无效',
-    such_as_dataeasedataease: '请输入登录页面标题，比如：DataEase',
-    for_example_dataease: '请输入系统名称，比如：DataEase',
+    such_as_dataeasedataease: '请输入登录页面标题，比如：HReport',
+    for_example_dataease: '请输入系统名称，比如：HReport',
     time_is_required: '开始时间为必填',
     it_takes_effect: '卸载并重启服务器之后才能生效',
     uninstall_the_plugin: '确定卸载该插件？',
@@ -2773,7 +2773,7 @@ export default {
     sameMonthLastYear: '去年同月'
   },
   wizard: {
-    welcome_title: '欢迎使用DataEase',
+    welcome_title: '欢迎使用HReport',
     welcome_hint: '人人可用的开源数据可视化分析工具',
     demo_video: '演示视频',
     quick_start: '快速入门',
@@ -2782,12 +2782,12 @@ export default {
     teaching_video: '教学视频',
     enterprise_edition: '企业版',
     contact_us: '联系我们',
-    demo_video_hint: '如何3分钟制作一个DataEase数据看板、并分享给他人',
-    online_document_hint: '涵盖DataEase的安装步骤、用户手册、使用教程、常见问题的解决方案、以及二次开发等',
+    demo_video_hint: '如何3分钟制作一个HReport数据看板、并分享给他人',
+    online_document_hint: '涵盖HReport的安装步骤、用户手册、使用教程、常见问题的解决方案、以及二次开发等',
     teaching_video_bottom_hint: '更多视频资料',
     enterprise_edition_hint1: '提供企业级应用场景X-Pack增强包',
     enterprise_edition_hint2: '提供高等级原厂服务支持',
-    enterprise_edition_hint3: '提供DataEase最佳实践建议',
+    enterprise_edition_hint3: '提供HReport最佳实践建议',
     open_source_community: '开源社区',
     click_show: '点击查看',
     show_more: '查看更多',
@@ -2875,16 +2875,16 @@ export default {
     panel: '仪表板',
     log_delete_tips: '确定删除该条应用记录吗？',
     log_resource_delete_tips: '删除相关资源（删除后不可恢复）',
-    file_error_tips: '未找到相关数据文件，当前文件可能不是DataEase应用文件，或者文件已经损坏',
+    file_error_tips: '未找到相关数据文件，当前文件可能不是HReport应用文件，或者文件已经损坏',
     app_export: '应用导出',
     app_version: '应用版本',
-    program_version: 'DataEase最低版本',
+    program_version: 'HReport最低版本',
     creator: '作者',
     export: '导出'
   },
 
   logout: {
-    oidc_logout_error: 'OIDC退出失败，是否继续退出DataEase？',
+    oidc_logout_error: 'OIDC退出失败，是否继续退出HReport？',
     cas_logout_error: 'CAS服务异常，请联系管理员！'
   },
   watermark: {

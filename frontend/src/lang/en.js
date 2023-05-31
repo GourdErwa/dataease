@@ -436,8 +436,8 @@ export default {
     name_is_required: 'User name is required',
     password_is_required: 'Password is required',
     help_document_link: 'Invalid help document link',
-    such_as_dataeasedataease: 'Please enter the login page title, such as: DataEase',
-    for_example_dataease: 'Please enter the system name, for example: DataEase',
+    such_as_dataeasedataease: 'Please enter the login page title, such as: HReport',
+    for_example_dataease: 'Please enter the system name, for example: HReport',
     time_is_required: 'Start time is required',
     delete_this_task: 'Are you sure to delete this task?',
     it_takes_effect: 'Uninstall and restart the server before it takes effect',
@@ -2762,7 +2762,7 @@ export default {
     sameMonthLastYear: 'Same month last year'
   },
   wizard: {
-    welcome_title: 'Welcome Use DataEase',
+    welcome_title: 'Welcome Use HReport',
     welcome_hint: 'Easy open-source data visualization and analytics tool',
     demo_video: 'Demo',
     quick_start: 'Quick Start',
@@ -2771,12 +2771,12 @@ export default {
     teaching_video: 'Teaching',
     enterprise_edition: 'Enterprise',
     contact_us: 'Contact Us',
-    demo_video_hint: 'How to make a DataEase dashboard in 3 minutes and share it with others',
-    online_document_hint: 'It covers the installation steps, user manuals, tutorials, solutions to common problems, and secondary development of DataEase',
+    demo_video_hint: 'How to make a HReport dashboard in 3 minutes and share it with others',
+    online_document_hint: 'It covers the installation steps, user manuals, tutorials, solutions to common problems, and secondary development of HReport',
     teaching_video_bottom_hint: 'More videos',
     enterprise_edition_hint1: 'Provide enterprise application scenario X-Pack enhancement package',
     enterprise_edition_hint2: 'Provide high-level original factory service support',
-    enterprise_edition_hint3: 'Provide DataEase best practice recommendations',
+    enterprise_edition_hint3: 'Provide HReport best practice recommendations',
     open_source_community: 'Open source community',
     click_show: 'Click To View',
     show_more: 'Show More',
@@ -2865,16 +2865,16 @@ export default {
     panel: 'Panel',
     log_delete_tips: 'Are you sure to delete this application record?',
     log_resource_delete_tips: 'Delete related resources (irrecoverable after deletion)',
-    file_error_tips: 'The relevant data file is not found. The current file may not be a DataEase application file, or the file may be damaged ',
+    file_error_tips: 'The relevant data file is not found. The current file may not be a HReport application file, or the file may be damaged ',
     app_export: 'Application export',
     app_version: 'Application version',
-    program_version: 'DataEase minimum version',
+    program_version: 'HReport minimum version',
     creator: 'Author',
     export: 'Export'
   },
 
   logout: {
-    oidc_logout_error: 'OIDC failed to exit, do you continue to exit DataEase?',
+    oidc_logout_error: 'OIDC failed to exit, do you continue to exit HReport?',
     cas_logout_error: 'The CAS service is abnormal, please contact the administrator!'
   },
   watermark: {

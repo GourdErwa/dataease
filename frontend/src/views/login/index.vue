@@ -31,11 +31,11 @@
             >
 
               <div class="login-logo">
-                <svg-icon
-                  v-if="!loginLogoUrl && axiosFinished"
-                  icon-class="DataEase"
-                  custom-class="login-logo-icon"
-                />
+<!--                <svg-icon-->
+<!--                  v-if="!loginLogoUrl && axiosFinished"-->
+<!--                  icon-class="DataEase"-->
+<!--                  custom-class="login-logo-icon"-->
+<!--                />-->
                 <img
                   v-if="loginLogoUrl && axiosFinished"
                   :src="loginLogoUrl"
@@ -52,7 +52,7 @@
                 v-else
                 class="login-welcome"
               >
-                {{ $t('login.welcome') + (uiInfo && uiInfo['ui.title'] && uiInfo['ui.title'].paramValue || ' DataEase') }}
+                {{ $t('login.welcome') + (uiInfo && uiInfo['ui.title'] && uiInfo['ui.title'].paramValue || ' HReport') }}
               </div>
               <div class="login-form">
                 <el-form-item v-if="radioTypes.length > 1">
@@ -430,6 +430,7 @@ export default {
       Cookies.remove('LarksuiteError')
     },
     showLoginImage(uiInfo) {
+      debugger;
       this.uiInfo = getSysUI()
       if (!this.uiInfo || Object.keys(this.uiInfo).length === 0) {
         this.uiInfo = uiInfo
@@ -569,7 +570,7 @@ export default {
 
   .login-welcome {
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 32px;
     color: $--color-primary;
     letter-spacing: 0;
     line-height: 18px;
@@ -631,8 +632,8 @@ export default {
 
   .login-image {
     background: url(../../assets/login-desc.png) no-repeat;
-    background-size: cover;
-    width: 100%;
+    background-size: contain;
+    width: 90%;
     height: 520px;
     @media only screen and (max-width: 1280px) {
       height: 380px;

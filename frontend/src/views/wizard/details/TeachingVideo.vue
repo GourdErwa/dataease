@@ -5,14 +5,14 @@
         <a
           href="https://live.vhall.com/v3/lives/subscribe/533874762"
           target="_blank"
-        >40分钟带你玩转 DataEase </a>
+        >40分钟带你玩转 HReport </a>
       </span>
       <br>
       <span class="title">
         <a
           href="https://live.vhall.com/v3/lives/subscribe/903960272"
           target="_blank"
-        >用DataEase开源工具可视化 ClickHouse数据 </a>
+        >用HReport开源工具可视化 ClickHouse数据 </a>
       </span>
     </el-row>
     <el-row class="demo_bottom">

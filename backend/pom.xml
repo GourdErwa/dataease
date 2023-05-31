@@ -518,6 +518,12 @@
                 <profiles.active>stage</profiles.active>
             </properties>
         </profile>
+        <profile>
+            <id>test</id>
+            <properties>
+                <profiles.active>test</profiles.active>
+            </properties>
+        </profile>
     </profiles>
 
     <repositories>

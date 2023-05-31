@@ -85,7 +85,7 @@ router.beforeEach(async (to, from, next) => routeBefore(() => {
     if (to.path === '/login') {
       // if is logged in, redirect to the home page
       next({
-        path: '/'
+        path: '/panel'
       })
       NProgress.done()
     } else {
@@ -137,11 +137,14 @@ router.beforeEach(async (to, from, next) => routeBefore(() => {
 }))
 export const loadMenus = (next, to) => {
   buildMenus().then(res => {
-    const data = res.data
+    let data = res.data
+    // 移除首页、模板应用市场
+    debugger
+    data = data.filter((item) => {return item.name !== 'wizard' && item.name !== 'template-market'})
     const filterData = filterRouter(data)
     const asyncRouter = filterAsyncRouter(filterData)
     // 如果包含首页 则默认页面是 首页 否则默认页面是仪表板页面
-    if (JSON.stringify(data).indexOf('wizard') > -1) {
+    if (false && JSON.stringify(data).indexOf('wizard') > -1) {
       asyncRouter.push({
         path: '/',
         component: Layout,
